@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    //initializes screen size
+    let universalSize = UIScreen.main.bounds
+    //boolean to change if its animated
+    @State var isAnimated = false
+
     var body: some View {
         Text("Hello, world!")
             .padding()
